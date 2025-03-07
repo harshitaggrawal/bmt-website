@@ -11,7 +11,7 @@ Injection Moulding Company in Kolkata ,
 <div class="bg-white">
     <div class="relative w-full h-[450px]">
         <div class="absolute inset-0"></div>
-        <img src="{{ asset('assets/image/mouldhome.png') }}" class="min-h-full w-full h-[450px] object-cover" alt="">
+        <img src="{{ asset('assets/image/Services/Service-Hero-Banner.jpg')  }}" class="min-h-full w-full h-[450px] object-cover" alt="">
         <div class="absolute inset-0 flex flex-col justify-center w-full md:w-1/2 px-4 w-full pl-[9%]">
 
 

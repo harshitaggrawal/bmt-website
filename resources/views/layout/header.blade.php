@@ -12,7 +12,7 @@
                  <div class="relative">
                     <a href="#" class="nav-link {{( request()->is('services') || request()->is('machines') || request()->is('moulds-Moulding') || request()->is('jig-&-fixture') || request()->is('valves') ) ? 'active' : '' }}">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu hidden absolute left-0 bg-[#f0f0f0] shadow-md py-2 w-48 rounded-lg z-10">
-                        <a href="/services" class="block px-4 py-2 text-gray-700 hover:text-blue-500">Services Overview</a>
+                        <!-- <a href="/services" class="block px-4 py-2 text-gray-700 hover:text-blue-500">Services Overview</a> -->
                         <a href="/moulds-Moulding" class="block px-4 py-2 text-gray-700 hover:text-blue-500">Moulds & Moulding</a>
                         <a href="/machines" class="block px-4 py-2 text-gray-700 hover:text-blue-500">Machines</a>
                         <a href="/valves" class="block px-4 py-2 text-gray-700 hover:text-blue-500">Valves</a>
@@ -50,7 +50,7 @@
                     Services <i class="fa fa-caret-down" aria-hidden="true"></i>
                 </a>
                 <div class="mobile-dropdown-menu hidden flex-col pb-1 pt-1">
-                    <a href="/services" class="px-4 py-2 nav-link block">Services Overview</a>
+                    <!-- <a href="/services" class="px-4 py-2 nav-link block">Services Overview</a> -->
                     <a href="/moulds-Moulding" class="px-4 py-2 nav-link block">Moulds & Moulding</a>
                     <a href="/machines" class="nav-link px-4 py-2 block">Machines</a>
                     <a href="/valves" class="nav-link px-4 py-2 block">Valves</a>
