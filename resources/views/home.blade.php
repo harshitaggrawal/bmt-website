@@ -1,8 +1,8 @@
 @extends('layout.app')
 @section('meta')
-    <title>BMT-Home</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+<title>BMT-Home</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
 @endsection
 
 @section('content')
@@ -22,9 +22,9 @@
                 From concept to creation, we bring your ideas to life with cutting-edge manufacturing expertise.
 
             </p>
-            <button type="submit" class="mt-4 bg-[#052250] w-[220px] text-white py-3 px-12 rounded hover:bg-blue-900">
-                Discover More
-            </button>
+            <a href="/contact" class="mt-4 bg-[#052250] w-[200px] text-white py-3 px-12 rounded hover:bg-blue-900">
+                Contact Us
+            </a>
         </div>
     </div>
 
@@ -195,15 +195,15 @@
                         <h4 class="font-bold text-lg">24/7 Customer Support</h4>
 
 
-                        <p class="text-gray-500 text-sm">Reliable assistance whenever you need it.</p>
+                        <p class="text-gray-500 text-sm pb-6">Reliable assistance whenever you need it.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Button -->
-            <button class="mt-6 bg-[#354F9C] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-                Discover More
-            </button>
+            <a href="/contact" class="mt-6 bg-[#354F9C] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+                Contact Us
+            </a>
         </div>
     </section>
 </div>
@@ -349,7 +349,7 @@
                 <img src="{{ asset('assets/image/q3.png') }}" class="w-[100px] h-[100px] object-contain">
             </div>
             <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/image/q2.png') }}" class="w-[100px] h-[100px] object-contain">
+                <img src="{{ asset('assets/image/q4.png') }}" class="w-[100px] h-[100px] object-contain">
             </div>
 
         </div>
@@ -377,19 +377,18 @@
                 <p style="color: green;">{{ session('success') }}</p>
                 @endif
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input type="text" name="name" placeholder="Name" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
-                    <input type="email" name="email" placeholder="Email Address" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="text" name="name" placeholder="Name" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="email" name="email" placeholder="Email Address" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
                 </div>
+                <div class="mt-4">
+                    <input type="text" name="phone" placeholder="Phone Number" class="border-black border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
+                </div>
+
+                <div class="mt-4">
+                    <textarea name="message" placeholder="Write a Message" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
+                </div>
+                
                 <input type="hidden" value="All Service" name="service" id="" required>
-
-                <div class="mt-4">
-                    <input type="text" name="phone" placeholder="Phone Number" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
-                </div>
-
-                <div class="mt-4">
-                    <textarea name="message" placeholder="Write a Message" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
-                </div>
-
                 <button type="submit" class="mt-4 bg-[#052250] text-white py-3 px-12 rounded hover:bg-blue-900">
                     Submit
                 </button>

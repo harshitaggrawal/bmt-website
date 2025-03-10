@@ -186,17 +186,17 @@
                 <p style="color: green;">{{ session('success') }}</p>
                 @endif
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input type="text" name="name" placeholder="Name" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
-                    <input type="email" name="email" placeholder="Email Address" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="text" name="name" placeholder="Name" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="email" name="email" placeholder="Email Address" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
                 </div>
                 <input type="hidden" value="All" name="service" id="" required>
 
                 <div class="mt-4">
-                    <input type="text" name="phone" placeholder="Phone Number" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
+                    <input type="text" name="phone" placeholder="Phone Number" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
                 </div>
 
                 <div class="mt-4">
-                    <textarea name="message" placeholder="Write a Message" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
+                    <textarea name="message" placeholder="Write a Message" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
                 </div>
 
                 <button type="submit" class="mt-4 bg-[#052250] text-white py-3 px-12 rounded hover:bg-blue-900">

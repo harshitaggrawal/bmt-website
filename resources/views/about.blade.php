@@ -190,7 +190,7 @@
         <img src="{{ asset('assets/image/q3.png') }}" class="w-[100px] h-[100px] object-contain">
     </div>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/image/q2.png') }}" class="w-[100px] h-[100px] object-contain">
+        <img src="{{ asset('assets/image/q4.png') }}" class="w-[100px] h-[100px] object-contain">
     </div>
 
 </div>

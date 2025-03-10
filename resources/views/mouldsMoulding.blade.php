@@ -23,9 +23,10 @@ Injection Moulding Company in Kolkata ,
             <p class="text-white mt-4 font-semibold text-md">
                 Enhance your production process with custom-designed moulds and moulding services that improve precision, reduce cycle time, and ensure consistent, high-quality results.
             </p>
-            <button type="submit" class="mt-4 bg-[#052250] w-[260px] text-white py-3 px-12 rounded hover:bg-blue-900">
-                Get a Detailed Quote!
-            </button>
+            
+            <a href="/contact" class="mt-4 bg-[#052250] w-[260px] text-white py-3 px-12 rounded hover:bg-blue-900">
+            Get a Detailed Quote!
+            </a>
         </div>
     </div>
 
@@ -327,17 +328,17 @@ Injection Moulding Company in Kolkata ,
                 <p style="color: green;">{{ session('success') }}</p>
                 @endif
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input type="text" name="name" placeholder="Name" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
-                    <input type="email" name="email" placeholder="Email Address" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="text" name="name" placeholder="Name" class="border  border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
+                    <input type="email" name="email" placeholder="Email Address" class="border  border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black" required>
                 </div>
                 <input type="hidden" value="Moulds And Moulding" name="service" id="" required>
 
                 <div class="mt-4">
-                    <input type="text" name="phone" placeholder="Phone Number" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
+                    <input type="text" name="phone" placeholder="Phone Number" class="border  border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black">
                 </div>
 
                 <div class="mt-4">
-                    <textarea name="message" placeholder="Write a Message" class="border outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
+                    <textarea name="message" placeholder="Write a Message" class="border  border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
                 </div>
 
                 <button type="submit" class="mt-4 bg-[#052250] text-white py-3 px-12 rounded hover:bg-blue-900">
