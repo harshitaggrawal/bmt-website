@@ -1,5 +1,5 @@
 <header class="fixed w-full top-2 md:top-6 z-50">
-    <div class="bg-[#FFFFFF] rounded-xl max-w-7xl mx-[5%] shadow-md px-2 sm:px-4 lg:px-[5%]">
+    <div class="bg-[#FFFFFF] rounded-xl max-w-[100%] mx-[5%] shadow-md px-2 sm:px-4 lg:px-[5%]">
         <div class="flex justify-between items-center py-3">
 
             <a href="/" class="flex items-center">
