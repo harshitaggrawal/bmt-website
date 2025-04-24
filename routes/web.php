@@ -27,21 +27,21 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 Route::get('/admin/contacts', [ContactController::class, 'index'])->name('contacts.index');
 
 
-Route::get('/jig-&-fixture', function () {
+Route::get('/jig-fixture-manufacturing-company-kolkata', function () {
     return view('jig&Fixture');
-});
+})->name('jig-&-fixture');
 
-Route::get('/machines', function () {
+Route::get('/cnc-machining-services-kolkata', function () {
     return view('machine');
-});
+})->name('machines');
 
-Route::get('/moulds-Moulding', function () {
+Route::get('/mould-moulding-manufacturing-company-kolkata', function () {
     return view('mouldsMoulding');
-});
+})->name('moulds-Moulding');
 
-Route::get('/valves', function () {
+Route::get('/valve-manufacturing-company-kolkata', function () {
     return view('valves');
-});
+})->name('valves');
 
 use App\Http\Controllers\BlogController;
 

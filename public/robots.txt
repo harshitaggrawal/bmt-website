@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+
+Allow: /mould-moulding-manufacturing-company-kolkata
+Allow: /cnc-machining-services-kolkata
+Allow: /valve-manufacturing-company-kolkata 
+Allow: /jig-fixture-manufacturing-company-kolkata
+
+Sitemap: https://www.bmt.co.in/sitemap.xml

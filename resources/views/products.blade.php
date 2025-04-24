@@ -121,7 +121,7 @@
                 <img src="{{ asset('assets/image/Products/offer/MouldandMoulding.jpg') }}" class="w-full h-[300px] object-cover">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
                     <h3 class="text-white text-left text-xl font-semibold">Mould and Moulding</h3>
-                    <a href="/moulds-Moulding"
+                    <a href="{{ route('moulds-Moulding') }}"
                         class="bg-orange-500 text-white w-[160px] px-4 py-2 mt-3 rounded-md transition duration-300 hover:bg-orange-600">
                         View Details
                     </a>
@@ -133,7 +133,7 @@
                 <img src="{{ asset('assets/image/Products/offer/Machining.jpg') }}" class="w-full h-[300px] object-cover">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-left p-6">
                     <h3 class="text-white text-left text-xl font-semibold">Machining</h3>
-                    <a href="/machines"
+                    <a href="{{route('machines')}}"
                         class="bg-orange-500 text-white w-[160px] px-4 py-2 mt-3 rounded-md transition duration-300 hover:bg-orange-600">
                         View Details
                     </a>
@@ -145,7 +145,7 @@
                 <img src="{{ asset('assets/image/Products/offer/Valve.jpg') }}" class="w-full h-[300px] object-cover">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
                     <h3 class="text-white text-left text-xl font-semibold">Valves</h3>
-                    <a href="/valves"
+                    <a href="{{ route('valves') }}"
                         class="bg-orange-500 text-white w-[160px] px-4 py-2 mt-3 rounded-md transition duration-300 hover:bg-orange-600">
                         View Details
                     </a>
@@ -157,7 +157,7 @@
                 <img src="{{ asset('assets/image/Products/offer/Jig Fixture.jpg')}}" class="w-full h-[300px] object-cover">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6">
                     <h3 class="text-white text-left text-xl font-semibold">Jig & Fixture</h3>
-                    <a href="/jig-&-fixture"
+                    <a href="{{ route('jig-&-fixture') }}"
                         class="bg-orange-500 w-[160px] text-white px-4 py-2 mt-3 rounded-md transition duration-300 hover:bg-orange-600">
                         View Details
                     </a>

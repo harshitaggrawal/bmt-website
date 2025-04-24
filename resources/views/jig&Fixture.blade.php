@@ -1,11 +1,8 @@
 @extends('layout.app')
 @section('meta')
-    <title>BMT - Jig & Fixture Services</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="Jig and Fixture,
-Jig Manufacturing,
-Jig Manufacturing Companies
-">
+    <title>Jig and Fixture Manufacturing Company in Kolkata - BMT</title>
+    <meta name="description" content="Find the best jigs and fixtures at Banerjee Machines & Tools - A top jig manufacturing company. Get top-quality jigs & fixtures for your business today.">
+    <meta name="keywords" content="Jig and Fixture, Jig Manufacturing, Jig Manufacturing Companies">
 @endsection
 @section('content')
 <div class="bg-white">

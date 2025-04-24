@@ -11,6 +11,16 @@
     @vite('resources/css/app.css')
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FT8MSQCCHF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FT8MSQCCHF');
+</script>
+
 <body>
 @include('layout.header')
     @yield('content')

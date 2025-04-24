@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('meta')
-    <title>BMT- Contact Us</title>
-    <meta name="description" content="">
+    <title>Contact Us - Banerjee Machine & Tools Co.</title>
+    <meta name="description" content="Need help with industrial solutions? Contact BMT for expert support in Moulding, Machining, Valves, and Jig & Fixture design. Let's build something great.">
     <meta name="keywords" content="">
 @endsection
 @section('content')
@@ -15,10 +15,8 @@
                 Contact Us
             </h1>
 
-            <p class="text-white mt-4 font-semibold text-md">
-               
+            <p class="text-white mt-4 font-semibold text-md"> 
                 Get in touch with us for precision-engineered solutions. We are committed to delivering high-quality workmanship that meets your exact requirements. </p>
-
         </div>
     </div>
 

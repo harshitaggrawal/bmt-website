@@ -1,8 +1,51 @@
 @extends('layout.app')
 @section('meta')
-<title>BMT-Home</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<title>Mould and Moulding | Machining | Valve | Jig and Fixture - BMT</title>
+<meta name="description" content="BMT offers precision Mould & Moulding, Machining, Valve, and Jig & Fixture services. Get reliable industrial solutions tailored to your needs. Contact us now.">
+<meta name="keywords" content="Mould Manufacturing Company in Kolkata, Injection Moulding Company in Kolkata, CNC Machine in Kolkata, Valve Manufacturing Company in Kolkata, Jig and Fixture">
+<meta name="google-site-verification" content="89VWcE5CDl5-qUSktgzKMs3rXzKV2f8erxz0Dzigrqw" />
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Banerjee Machine & Tools Co.",
+        "image": "https://www.bmt.co.in/assets/image/logo.png",
+        "@id": "https://www.bmt.co.in/",
+        "url": "https://www.bmt.co.in/",
+        "telephone": "98300 83027",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "12/5, Bhattacharya Para Lane",
+            "addressLocality": "Kolkata",
+            "postalCode": "700036",
+            "addressCountry": "India"
+        },
+        "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "10:00",
+                "closes": "14:00"
+            }
+        ]
+    }
+</script>
+
 @endsection
 
 @section('content')
@@ -12,7 +55,7 @@
         <video src="{{ asset('assets/image/BMT_final.mp4') }}" autoplay loop muted playsinline class="min-h-full w-full h-[550px] object-cover"></video>
         <div class="absolute inset-0 flex flex-col justify-center w-full md:w-1/2 px-4 w-full pl-[9%]">
 
-            <h2 class="text-[#FFFFFF] font-[900] md:text-[24px] text-left mb-[2px]">Welcome To</h2>
+            <h1 class="text-[#FFFFFF] font-[900] md:text-[24px] text-left mb-[2px]">Welcome To</h1>
             <h1 class="text-2xl md:text-6xl text-white font-bold text-left mb-4">
                 Banerjee Machine & Tools Co.
             </h1>
@@ -52,7 +95,7 @@
                     </div>
                     <h4 class="font-bold text-lg py-2">Moulds</h4>
                     <div class="flex items-center justify-center mb-2 relative">
-                        <a href="/moulds-Moulding" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                        <a href="{{ route('moulds-Moulding') }}" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                             Read More
                         </a>
                     </div>
@@ -72,7 +115,7 @@
                     </div>
                     <h4 class="font-bold text-lg py-2">Moulding</h4>
                     <div class="flex items-center justify-center mb-2 relative">
-                        <a href="/moulds-Moulding" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                        <a href="{{ route('moulds-Moulding') }}" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                             Read More
                         </a>
                     </div>
@@ -92,7 +135,7 @@
                     </div>
                     <h4 class="font-bold text-lg py-2">Machining</h4>
                     <div class="flex items-center justify-center mb-2 relative">
-                        <a href="/machines" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                        <a href="{{route('machines')}}" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                             Read More
                         </a>
                     </div>
@@ -113,7 +156,7 @@
                     </div>
                     <h4 class="font-bold text-lg py-2">Valves</h4>
                     <div class="flex items-center justify-center mb-2 relative">
-                        <a href="/valves" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                        <a href="{{ route('valves') }}" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                             Read More
                         </a>
                     </div>
@@ -133,7 +176,7 @@
                     </div>
                     <h4 class="font-bold text-lg py-2">Jigs & Fixtures</h4>
                     <div class="flex items-center justify-center mb-2 relative">
-                        <a href="/jig-&-fixture" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                        <a href="{{ route('jig-&-fixture') }}" class="absolute translate-y-4 mt-2 bg-[#0B5BDB] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                             Read More
                         </a>
                     </div>
@@ -387,7 +430,7 @@
                 <div class="mt-4">
                     <textarea name="message" placeholder="Write a Message" class="border border-black outline-0 px-3 py-2 w-full rounded-lg bg-gray-100 text-black h-32" required></textarea>
                 </div>
-                
+
                 <input type="hidden" value="All Service" name="service" id="" required>
                 <button type="submit" class="mt-4 bg-[#052250] text-white py-3 px-12 rounded hover:bg-blue-900">
                     Submit

@@ -1,11 +1,8 @@
 @extends('layout.app')
 @section('meta')
-<title>BMT- Moulds And Moulding Services</title>
-<meta name="description" content="">
-<meta name="keywords" content="Mould Maker in Kolkata ,
-Mould Manufacturing Company in Kolkata ,
-Injection Moulding Company in Kolkata ,
-">
+<title>Mould and Moulding Manufacturing Company in Kolkata - BMT</title>
+<meta name="description" content="Upgrade your manufacturing process with premium mould & moulding! Banerjee Machines & Tools is Kolkata's top mould & moulding manufacturer. Contact us now.">
+<meta name="keywords" content="Mould Maker in Kolkata, Mould Manufacturing Company in Kolkata, Injection Moulding Company in Kolkata">
 @endsection
 @section('content')
 <div class="bg-white">

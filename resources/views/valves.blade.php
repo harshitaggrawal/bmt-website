@@ -1,10 +1,8 @@
 @extends('layout.app')
 @section('meta')
-<title>BMT- Valves Services</title>
-<meta name="description" content="">
-<meta name="keywords" content="Valve Manufacturer in Kolkata,
-Valve Manufacturing Company in Kolkata
-">
+<title>Valve Manufacturing Company in Kolkata - BMT</title>
+<meta name="description" content="Banerjee Machines & Tools - The most reliable Valve Manufacturer in Kolkata. Get precision-crafted valves for industrial applications. Contact us today.">
+<meta name="keywords" content="Valve Manufacturer in Kolkata, Valve Manufacturing Company in Kolkata">
 @endsection
 @section('content')
 
