@@ -77,9 +77,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Valves</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
             Expert Valve Manufacturing Solutions
-        </h1>
+        </h2>
 
         <p class="text-gray-600 mt-4">
 
@@ -142,9 +142,9 @@
 <section class="bg-[#FFFFFF] py-8 px-[9%] w-full">
     <div class="w-full text-center ">
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>With Specification</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-6">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-6">
             Our Valve Categories
-        </h1>
+        </h2>
 
 
 
@@ -155,7 +155,7 @@
                 <div class="text-left mt-4 space-y-2">
 
 
-                    <h1 class="text-black font-bold text-xl">Forged Steel Gate Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Forged Steel Gate Valve</h2>
                     <p class="text-left text-gray-500">
                         Designed for efficient flow control in high-pressure environments, ensuring durability and performance even under extreme conditions.
 
@@ -173,7 +173,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v2.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Globe Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Globe Valve</h2>
                     <p class="text-left text-gray-500">
                         Provides precise throttling control to maintain consistent flow in various industrial applications, ideal for regulating flow at varying rates.
 
@@ -191,7 +191,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v3.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Ball Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Ball Valve</h2>
                     <p class="text-left text-gray-500">
                         Ensures tight sealing and smooth operation, making it ideal for fluid regulation in systems that demand precision and reliability in flow control.
 
@@ -208,7 +208,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v4.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Check Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Check Valve</h2>
                     <p class="text-left text-gray-500">
                         Prevents backflow, maintaining directional flow control in piping systems by ensuring fluid only moves in one direction.
 
@@ -225,7 +225,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v5.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-cover">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Butterfly Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Butterfly Valve</h2>
                     <p class="text-left text-gray-500">
                         A lightweight, cost-effective solution, perfect for controlling large flow systems in industries where space and cost-efficiency are important.
 
@@ -242,7 +242,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v6.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Plug Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Plug Valve</h2>
                     <p class="text-left text-gray-500">
                         Designed for fast shut-off in demanding conditions, offering exceptional reliability and ease of operation in systems that require a quick response.
 
@@ -260,7 +260,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v7.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Pressure Relief Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Pressure Relief Valve</h2>
                     <p class="text-left text-gray-500">
                         Prevents system overpressure and ensures the safety and efficiency of your equipment, automatically releasing pressure when it exceeds safe limits.
 
@@ -278,7 +278,7 @@
             <div class=" group ">
                 <img src="{{ asset('assets/image/v8.png') }}" class="w-full h-[250px] rounded-lg border border-gray-500 border-2 object-contain">
                 <div class="text-left mt-4 space-y-2">
-                    <h1 class="text-black font-bold text-xl">Diaphragm Valve</h1>
+                    <h2 class="text-black font-bold text-xl">Diaphragm Valve</h2>
                     <p class="text-left text-gray-500">
                         Perfect for controlling highly corrosive or viscous fluids, offering durability and precise control in environments where chemical compatibility is critical.
 
@@ -299,9 +299,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Process Section</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             Our Work Process
-        </h1>
+        </h2>
 
         <p class="text-gray-600 mt-4">
             We follow a structured and quality-driven work process to deliver world-class valve solutions: </p>
@@ -364,9 +364,9 @@
 
         <div class="px-[5%]">
             <!-- <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Our Benefits </i></h2> -->
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Why Choose Us
-            </h1>
+            </h2>
             <p class="text-gray-500 mt-4">
                 With decades of experience in valve manufacturing and servicing, we are your trusted partner for all your valve needs. Our precision engineering, quality control, and industry expertise make us the leading choice for valve solutions.
             </p>
@@ -421,9 +421,9 @@
         <div class="absolute inset-0 flex flex-col justify-center px-4 w-full px-[9%] md:px-[15%]">
 
             <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Contact Us </i></h2>
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Get in Touch for More Details
-            </h1>
+            </h2>
             <form action="{{ route('contact.store') }}" method="POST" class="mt-6 w-full ">
                 @csrf
                 @if(session('success'))
@@ -455,9 +455,9 @@
 
 <div class="w-full px-[8%] py-8 bg-[#FFFFFF]">
     <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-2"><i>Check Out Our(FAQ) </i></h2>
-    <h1 class="text-2xl md:text-4xl font-bold text-center mb-6">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-6">
         Don't see your question here? Drop us a line!
-    </h1>
+    </h2>
     <div class="space-y-4">
         @php
         $faqs = [

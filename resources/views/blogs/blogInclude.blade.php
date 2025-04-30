@@ -6,14 +6,14 @@
 
 <div class="bg-white w-full px-[9%] py-12">
 <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>From the Blogs</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
             Latest Blogs
-        </h1>
+        </h2>
     <div class="w-full">
         <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
             @foreach($blogs as $blog)
             <div class="py-4">
-                <img src="{{ asset('storage/' . $blog->outer_image) }}" class="w-full h-[350px] rounded object-cover">
+                <img src="{{ asset('storage/' . $blog->inner_image) }}" class="w-full h-auto rounded object-contain">
 
                 <div class="flex items-center justify-start mx-6 mb-2 relative">
                     <p class="absolute -translate-y-8  bg-[#FE6D00] text-white px-4 py-1 rounded-lg transition">

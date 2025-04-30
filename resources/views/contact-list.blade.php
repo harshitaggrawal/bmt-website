@@ -7,7 +7,7 @@
 
 <main class="flex-1 p-6">
             <div class="bg-gray-800 p-5 rounded shadow">
-                <h1 class="text-2xl font-bold">Contact Messages</h1>
+                <h2 class="text-2xl font-bold">Contact Messages</h2>
                 <table class="w-full mt-5 border border-gray-700">
                     <thead>
                         <tr class="bg-gray-700">

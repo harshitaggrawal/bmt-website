@@ -10,7 +10,8 @@
 @vite(['resources/css/app.css', 'resources/js/app.js'])
     @vite('resources/css/app.css')
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+
+    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT8MSQCCHF"></script>
 <script>
@@ -20,6 +21,9 @@
 
   gtag('config', 'G-FT8MSQCCHF');
 </script>
+</head>
+
+
 
 <body>
 @include('layout.header')

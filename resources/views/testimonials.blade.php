@@ -103,9 +103,9 @@
 
 <div class="text-center w-full px-[9%] pt-8 pb-2 bg-[#f9f8f3]">
     <h2 class="text-[#FE6D00] font-[900] md:text-[24px] mb-[2px]"><i>Out Testimonials</i></h2>
-    <h1 class="text-2xl md:text-4xl text-black font-bold mb-2">
+    <h2 class="text-2xl md:text-4xl text-black font-bold mb-2">
         What They Say
-    </h1>
+    </h2>
 </div>
 
 <div class="owl-carousel owl-theme w-full px-[9%] py-8 bg-[#f9f8f3]">

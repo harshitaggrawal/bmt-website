@@ -77,9 +77,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Jig & Fixture</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
             Our Jig & Fixture Services
-        </h1>
+        </h2>
 
         <p class="text-gray-600 mt-4">
             We offer a wide range of services for designing, manufacturing, and supplying jigs and fixtures that cater to various industries. Whether you need solutions for small or large-scale production, we have the capabilities to deliver high-quality, precision tools that ensure smooth and efficient operations</p>
@@ -126,9 +126,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Process Section</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             How we Work
-        </h1>
+        </h2>
 
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -187,9 +187,9 @@
 
         <div class="px-[5%]">
             <!-- <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Our Benefits </i></h2> -->
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Why Choose Us
-            </h1>
+            </h2>
             <p class="text-gray-500 mt-4">
                 With decades of experience and expertise in jig and fixture manufacturing, we are your trusted partner for all your tooling needs. Our commitment to quality, precision, and customer satisfaction sets us apart in the industry.
             </p>
@@ -249,9 +249,9 @@
         <div class="absolute inset-0 flex flex-col justify-center px-4 w-full px-[9%] md:px-[15%]">
 
             <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Contact Us </i></h2>
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Get in Touch for More Details
-            </h1>
+            </h2>
             <form action="{{ route('contact.store') }}" method="POST" class="mt-6 w-full ">
                 @csrf
                 @if(session('success'))
@@ -283,9 +283,9 @@
 
 <div class="w-full px-[8%] py-8 bg-[#FFFFFF]">
     <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-2"><i>Check Out Our(FAQ) </i></h2>
-    <h1 class="text-2xl md:text-4xl font-bold text-center mb-6">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-6">
         Don't see your question here? Drop us a line!
-    </h1>
+    </h2>
    
     <div class="space-y-4">
         @php

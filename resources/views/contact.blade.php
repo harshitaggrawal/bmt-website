@@ -36,7 +36,7 @@
                     <div class="flex items-center gap-4">
                         <i class="fas fa-phone text-blue-600 text-xl"></i>
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-semibold">Call Us Now</h1>
+                            <h2 class="font-semibold">Call Us Now</h2>
                             <a href="tel:+91 98300 83027" class="text-gray-700">+91 98300 83027</a>
                         </div>
 
@@ -44,7 +44,7 @@
                     <div class="flex items-center gap-4">
                         <i class="fas fa-envelope text-blue-600 text-xl"></i>
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-semibold">Email</h1>
+                            <h2 class="font-semibold">Email</h2>
                             <a href="mailto:bmtco2012@gmail.com" class="text-gray-700">bmtco2012@gmail.com</a>
                         </div>
 
@@ -52,7 +52,7 @@
                     <div class="flex items-center gap-4">
                         <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-semibold">Office Address</h1>
+                            <h2 class="font-semibold">Office Address</h2>
                             <p class="text-gray-700">12/5, Bhattacharya Para Lane, <br> Kolkata - 700036 West Bengal</p>
 
                         </div>
@@ -60,7 +60,7 @@
                     <div class="flex items-center gap-4">
                         <i class="fas fa-clock text-blue-600 text-xl"></i>
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-semibold">Working Hours</h1>
+                            <h2 class="font-semibold">Working Hours</h2>
                             <p class="text-gray-700">Mon-Fri (8am - 6pm) <br> Sat-Sun (10am - 2pm)</p>
 
                         </div>
@@ -69,7 +69,7 @@
                     <div class="flex items-center gap-4">
                         <i class="fas fa-phone-volume text-blue-600 text-xl"></i>
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-semibold">Emergency Contact (24 hours / 7 days )</h1>
+                            <h2 class="font-semibold">Emergency Contact (24 hours / 7 days )</h2>
                             <a href="tel:+91 98300 83027" class="text-gray-700">+91 98300 83027</a>
                         </div>
 
@@ -87,7 +87,7 @@
 
 <div class="bg-[#F8F7F0] px-[9%] py-8 w-full">
     <div class="flex items-center flex-wrap align-center justify-around gap-4 md:gap-12">
-        <h1 class="text-3xl text-black font-bold">Follow Us On</h1>
+        <h2 class="text-3xl text-black font-bold">Follow Us On</h2>
 
 
         <div class="flex space-x-4 mt-4 text-xl">
@@ -151,7 +151,7 @@
 
 <div class="bg-[#FFFFFF] px-[9%] py-8 w-full">
     <div class="flex items-center flex-wrap align-center justify-around gap-4 ">
-        <h1 class="text-2xl text-black font-bold">Schedule Your Consultation for Precision Engineering Solutions.</h1>
+        <h2 class="text-2xl text-black font-bold">Schedule Your Consultation for Precision Engineering Solutions.</h2>
         <button  class="mt-4 bg-[#052250] text-white py-3 px-12 rounded hover:bg-blue-900">Make an Appointment</button>
       
     </div>

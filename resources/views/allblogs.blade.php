@@ -28,12 +28,12 @@
 
 <div class="bg-white flex w-full px-[9%] flex-wrap-reverse py-12">
 
-    <div class="w-full md:w-[70%]">
+    <div class="w-full lg:w-[70%]">
         <div class="grid grid-cols-1">
             @foreach($blogs as $blog)
 
             <div class="py-4">
-                <img src="{{ asset('storage/' . $blog->outer_image) }}" class="w-full h-[350px] rounded object-cover">
+                <img src="{{ asset('storage/' . $blog->outer_image) }}" class="w-full h-auto lg:h-[400px] object-contain">
 
                 <div class="flex items-center justify-start mx-6 mb-2 relative">
                     <p class="absolute -translate-y-8  bg-[#FE6D00] text-white px-4 py-1 rounded-lg transition">
@@ -61,7 +61,7 @@
 
 
 
-    <form method="GET" action="{{ route('home') }}" class="w-full w-full md:w-[30%] md:p-8 ">
+    <form method="GET" action="{{ route('home') }}" class="w-full w-full lg:w-[30%] md:p-8 ">
         <div class=" flex flex-col gap-4 mx-auto">
 
             <div class="search bg-blue-600 rounded-[30px] flex gap-4 px-4 py-1 items-center text-white">
@@ -71,7 +71,7 @@
             </div>
 
             <!-- Year Filter -->
-            <div class="bg-gray-50 p-6 rounded-lg shadow hidden md:block">
+            <div class="bg-gray-50 p-6 rounded-lg shadow hidden lg:block">
                 <h2 class="text-lg font-semibold mb-4">Filter by Year</h2>
                 <div class="flex flex-wrap gap-3">
                     @foreach($years as $year)

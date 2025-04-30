@@ -85,9 +85,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Machining</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-4">
             Machining Services Overview
-        </h1>
+        </h2>
 
         <h4 class="text-center text-blue-600 text-xl md:text-3xl font-bold">Our Machining Services</h4>
 
@@ -158,9 +158,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Process Section</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             How we Work
-        </h1>
+        </h2>
 
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -226,9 +226,9 @@
         <div class="px-[5%]">
 
             <!-- <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Our Benefits </i></h2> -->
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Why Choose Us
-            </h1>
+            </h2>
             <p class="text-gray-500 mt-4">
                 With more than three decades of expertise, we specialise in providing high-precision CNC machining services tailored to meet the specific needs of various industries. Our commitment to excellence ensures reliable results, prompt delivery, and rigorous quality control for every project.
             </p>
@@ -287,9 +287,9 @@
         <div class="absolute inset-0 flex flex-col justify-center px-4 w-full px-[9%] md:px-[15%]">
 
             <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Contact Us </i></h2>
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                 Get in Touch for More Details
-            </h1>
+            </h2>
             <form action="{{ route('contact.store') }}" method="POST" class="mt-6 w-full ">
                 @csrf
                 @if(session('success'))
@@ -321,9 +321,9 @@
 
 <div class="w-full px-[8%] py-8 bg-[#FFFFFF]">
     <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-2"><i>Check Out Our(FAQ) </i></h2>
-    <h1 class="text-2xl md:text-4xl font-bold text-center mb-6">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-6">
         Don't see your question here? Drop us a line!
-    </h1>
+    </h2>
 
 
 

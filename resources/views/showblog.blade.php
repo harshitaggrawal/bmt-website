@@ -29,7 +29,7 @@
 
 <div class="bg-white w-full px-[9%] py-12">
 
-    <h1 class="text-xl md:text-3xl font-bold w-full md:w-3/5 mb-4">{{ $blog->title }}</h1>
+    <h2 class="text-xl md:text-3xl font-bold w-full md:w-3/5 mb-4">{{ $blog->title }}</h2>
 
     <div class="flex flex-wrap my-8 mb-4 text-gray-700 justify-start gap-2 items-center">
         <p><i class="fas fa-user"></i></p>
@@ -56,7 +56,7 @@
 
 
     <img src="{{ asset('storage/' . $blog->inner_image) }}"
-        class="min-h-full w-full h-[400px] object-cover" alt="">
+        class="min-h-full w-full md:h-[400px] object-contain" alt="">
 
     <p class="my-4">{{ $blog->short_description }}</p>
     <div class="mb-4">

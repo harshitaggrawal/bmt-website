@@ -28,10 +28,10 @@
 
             <div>
                 <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-left mb-[2px]"><i>Welcome To </i></h2>
-                <h1 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
+                <h2 class="text-2xl md:text-4xl text-black font-bold text-left mb-2">
                     Banerjee Machine &
                     Tools Co.
-                </h1>
+                </h2>
                 <h4 class="text-blue-500 py-2 font-bold">
                     Creating Opportunities, Empowering Lives, and Shaping India's Industrial Future.
                 </h4>
@@ -54,9 +54,9 @@
     <div class="w-full  text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Our Expertise</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             Our Expertise
-        </h1>
+        </h2>
         <p class="text-gray-600 mt-4">
 
             At Banerjee Machine & Tools Co., we understand that each industry has unique challenges. We combine our engineering expertise with modern technology to provide precise, reliable, and cost-effective products and services to our clients.
@@ -113,9 +113,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Core Values</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             Core Values
-        </h1>
+        </h2>
 
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -167,9 +167,9 @@
         <div class="mt-12">
             <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Certifications and Awards</i></h2>
 
-            <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+            <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
                 Certifications and Awards
-            </h1>
+            </h2>
         </div>
 
 
@@ -200,9 +200,9 @@
     <div class="w-full text-center ">
 
         <h2 class="text-[#FE6D00] font-[900] md:text-[24px] text-center mb-[2px]"><i>Facilities and Technology</i></h2>
-        <h1 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
+        <h2 class="text-2xl md:text-4xl text-black font-bold text-center mb-2">
             Facilities and Technology
-        </h1>
+        </h2>
         <p class="text-gray-600 mt-4">
             We've invested in the best manufacturing facilities and modern technology to make sure we can provide our customers with truly accurate and reliable solutions.
         </p>
@@ -260,7 +260,7 @@
 
 <div class="bg-black text-white px-[9%] py-8 w-full">
     <div class="flex items-center flex-wrap align-center justify-around gap-4 ">
-        <h1 class="text-3xl  font-bold">Partner with us to shape the future of engineering excellence. </h1>
+        <h2 class="text-3xl  font-bold">Partner with us to shape the future of engineering excellence. </h2>
         <a href="/contact" class="mt-4 hover:bg-[#052250] text-white py-3 px-12 rounded bg-blue-900">Contact Us</a>
 
     </div>
