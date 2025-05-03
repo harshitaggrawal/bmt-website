@@ -3,6 +3,7 @@
     <title>BMT-Services</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link rel="canonical" href="https://www.bmt.co.in/services" />
 @endsection
 @section('content')
 <div class="bg-white">

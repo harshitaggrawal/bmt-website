@@ -3,6 +3,7 @@
 <title>Valve Manufacturing Company in Kolkata - BMT</title>
 <meta name="description" content="Banerjee Machines & Tools - The most reliable Valve Manufacturer in Kolkata. Get precision-crafted valves for industrial applications. Contact us today.">
 <meta name="keywords" content="Valve Manufacturer in Kolkata, Valve Manufacturing Company in Kolkata">
+<link rel="canonical" href="https://www.bmt.co.in/valve-manufacturing-company-kolkata" />
 @endsection
 @section('content')
 

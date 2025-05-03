@@ -3,7 +3,9 @@
     <title>CNC Machining Services in Kolkata - BMT</title>
     <meta name="description" content="Banerjee Machines & Tools specializes in CNC Machining Services in Kolkata. Get high-quality, precision-engineered parts today. Contact us now.">
     <meta name="keywords" content="CNC Machine in Kolkata, CNC Services, CNC Machining Service">
-@endsection
+    <link rel="canonical" href="https://www.bmt.co.in/cnc-machining-services-kolkata" />
+
+    @endsection
 @section('content')
 <div class="bg-white">
     <div class="relative w-full h-[450px]">

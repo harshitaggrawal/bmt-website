@@ -3,6 +3,7 @@
     <title>About Us - Banerjee Machine & Tools Co.</title>
     <meta name="description" content="At BMT, we specialize in high-quality Moulding, Machining, Valve solutions, and Jig & Fixture manufacturing. Learn more about us today.">
     <meta name="keywords" content="">
+    <link rel="canonical" href="https://www.bmt.co.in/about" />
 @endsection
 @section('content')
 <div class="bg-white">

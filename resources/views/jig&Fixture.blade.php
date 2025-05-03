@@ -3,7 +3,8 @@
     <title>Jig and Fixture Manufacturing Company in Kolkata - BMT</title>
     <meta name="description" content="Find the best jigs and fixtures at Banerjee Machines & Tools - A top jig manufacturing company. Get top-quality jigs & fixtures for your business today.">
     <meta name="keywords" content="Jig and Fixture, Jig Manufacturing, Jig Manufacturing Companies">
-@endsection
+    <link rel="canonical" href="https://www.bmt.co.in/jig-fixture-manufacturing-company-kolkata" />
+    @endsection
 @section('content')
 <div class="bg-white">
     <div class="relative w-full h-[450px]">

@@ -3,6 +3,7 @@
     <title>Contact Us - Banerjee Machine & Tools Co.</title>
     <meta name="description" content="Need help with industrial solutions? Contact BMT for expert support in Moulding, Machining, Valves, and Jig & Fixture design. Let's build something great.">
     <meta name="keywords" content="">
+    <link rel="canonical" href="https://www.bmt.co.in/contact" />
 @endsection
 @section('content')
 <div class="bg-white">

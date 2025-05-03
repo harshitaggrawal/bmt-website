@@ -46,6 +46,7 @@
     }
 </script>
 
+<link rel="canonical" href="https://www.bmt.co.in/" />
 @endsection
 
 @section('content')

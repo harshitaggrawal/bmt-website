@@ -3,6 +3,7 @@
 <title>Mould and Moulding Manufacturing Company in Kolkata - BMT</title>
 <meta name="description" content="Upgrade your manufacturing process with premium mould & moulding! Banerjee Machines & Tools is Kolkata's top mould & moulding manufacturer. Contact us now.">
 <meta name="keywords" content="Mould Maker in Kolkata, Mould Manufacturing Company in Kolkata, Injection Moulding Company in Kolkata">
+<link rel="canonical" href="https://www.bmt.co.in/mould-moulding-manufacturing-company-kolkata" />
 @endsection
 @section('content')
 <div class="bg-white">

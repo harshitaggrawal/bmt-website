@@ -3,6 +3,7 @@
     <title>BMT-Products</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link rel="canonical" href="https://www.bmt.co.in/products" />
 @endsection
 @section('content')
 <div class="bg-white">
