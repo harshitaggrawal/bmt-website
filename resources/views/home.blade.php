@@ -57,9 +57,9 @@
         <div class="absolute inset-0 flex flex-col justify-center w-full md:w-1/2 px-4 w-full pl-[9%]">
 
             <h1 class="text-[#FFFFFF] font-[900] md:text-[24px] text-left mb-[2px]">Welcome To</h1>
-            <h1 class="text-2xl md:text-6xl text-white font-bold text-left mb-4">
+            <h2 class="text-2xl md:text-6xl text-white font-bold text-left mb-4">
                 Banerjee Machine & Tools Co.
-            </h1>
+            </h2>
 
 
             <p class="text-white mt-4 font-semibold text-md">
@@ -402,7 +402,7 @@
 
 @include('testimonials')
 
-<!-- @include('blogs.blogInclude') -->
+
 
 <!-- Contact Form Section -->
 <div class="bg-white">

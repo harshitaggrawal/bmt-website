@@ -20,9 +20,9 @@
                         {{ $blog->date_of_post }}
                     </p>
                 </div>
-                <div class="flex gap-8 mt-8 mb-4 items-center">
+                <div class="flex gap-8 mt-4 mb-4 items-center">
                     <p class="text-gray-600 text-sm"><i class="fa fa-user text-[#FE6D00]" aria-hidden="true"></i> By {{ $blog->author }}</p>
-                    <p class="text-gray-600 text-sm"><i class="fa fa-comment text-[#FE6D00]" aria-hidden="true"></i> 3 comment</p>
+                    <!-- <p class="text-gray-600 text-sm"><i class="fa fa-comment text-[#FE6D00]" aria-hidden="true"></i> 3 comment</p> -->
                 </div>
                 <h2 class="text-xl font-bold">{{ $blog->title }}</h2>
                 <p class="text-gray-700 mt-4">{{ $blog->short_description}}</p>
