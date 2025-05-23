@@ -241,7 +241,6 @@
     </section>
 </div>
 
-<!-- @include('blogs.blogInclude') -->
 <!-- Contact Form Section -->
 <div class="bg-white">
     <div class="relative w-full h-[550px] md:h-[500px]">
